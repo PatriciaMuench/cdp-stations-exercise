@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <!-- set the viewport for responsive scaling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDP | Client Stations</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="header">
+    <h1>CDP Client Stations</h1>
+  </div>
+
+  <div class="main" id="main"></div>
+
+  <!--
+    Browserify enables the require method to be used in the browser in the same way as it is used in Node.js.
+    After `npm install -g browserify`, running `browserify index.js -o bundle.js` bundles up all the dependencies.
+  -->
+  <script src="bundle.js"></script>
+
+  <noscript>Sorry, JavaScript does not seem to be working.</noscript>
+</body>
+</html>
